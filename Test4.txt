@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Test4
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter two numbers");
+int num=sc.nextInt();//20
+int num=sc.nextInt();//10
+System.out.print("1:ADDITION");
+System.out.print("2:SUBRACTION");
+System.out.print("3:MULTIPLICATION");
+System.out.print("4:DIVISION");
+System.out.print("5:MODULUS DIVISION");
+int choice=sc.nextInt();
+if (choice==1)System.out.print(num1="+"+num2+"="+(num1+num2));
+else if (choice==2)System.out.print(num1="-"+num2+"="+(num1-num2));
+else if (choice==3)System.out.print(num1="*"+num2+"="+(num1*num2));
+else if (choice==4)System.out.print(num1="/"+num2+"="+(num1/num2));
+else if (choice==5)System.out.print(num1="%"+num2+"="+(num1%num2));
+}//main()
+}//Test3
